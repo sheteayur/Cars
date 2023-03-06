@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	img 
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+
+</head>
+
+<body>
+
+<button id="red">Red</button>
+<button id="yellow">Yellow</button>
+<button id="green">Green</button>
+<br><br>
+<img src="audi.jpg" width="800" height="450">
+
+<script>
+
+let body = document.querySelector("body");
+
+document.querySelector("#red").onclick = function() {
+body.style.backgroundColor = "red";
+}
+
+document.querySelector("#yellow").onclick = function() {
+body.style.backgroundColor = "yellow";
+}
+
+document.querySelector("#green").onclick = function() {
+body.style.backgroundColor = "green";
+}
+
+</script>
+
+</body>
+
+</html>
